@@ -1,0 +1,47 @@
+body {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	height: 100vh;
+	margin: 0;
+	background-image: url("image.jpg");
+	color: gold;
+}
+
+header {
+	font-size: 25px;
+	padding: 10px;
+	text-align: center;
+	margin-top: 60px;
+	font-weight: bold;
+}
+
+.chessboard {
+	display: grid;
+	grid-template-columns: repeat(6, 1fr);
+	grid-template-rows: repeat(6, 1fr);
+	width: 90vmin;
+	height: 90vmin;
+	margin-top: 40px;
+	border: 2px solid goldenrod;
+}
+
+.square {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.square img {
+	width: 95%;
+	height: 80%;
+}
+
+.black {
+	background-color: black;
+}
+
+.white {
+	background-color: white;
+}
